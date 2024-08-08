@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: gray;
+            padding: 45px;
+            display: flex;
+        }
+        .card{
+            background-color: white;
+            width: 300px; 
+            border-radius: 7px;
+            padding: 0 0 34px 0;
+            margin: 10px;
+            margin-top: 75px;
+        }
+        
+        .image{
+            padding: 5px;
+    
+        }
+        .image img{
+            border-radius: 7px;
+        }
+        .content{
+            padding: 7px 13px; 
+font-family: 'Poppins', sans-serif;
+        }
+       
+        .content p{
+            font-size: 13px;
+            font-weight: 500px;
+            color: rgb(11, 5, 5);
+        }
+        .capsules{
+            padding: 0 48px 0 37px;
+        }
+        .capsules span{
+            border: 2px solid gray;
+            padding: 0px 6px;
+            border-radius: 7px;
+            font-size: 8px;
+            font-family: 'Baloo Bhai 2', sans-serif; 
+            background-color: rgb(211, 207, 207);
+
+        }
+        .button{
+            text-align: center;
+        }
+        .button button{
+            padding: 7px 15px;
+            border-radius: 15px;
+            background-color: rgb(6, 9, 12);
+            color: rgb(240, 245, 250);
+            font-size: 10px;
+            margin-top: 7px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button button:hover{
+            background-color: rgb(234, 246, 252);
+            color: rgb(0, 4, 7);
+        }
+        .nav{
+            background-color: black;
+            color: antiquewhite;
+            height: 10vh;
+            width: 100%;
+            padding: 2%;
+            margin:0%;
+            position:absolute;
+            top:0px ;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        #title{
+            text-align: center;
+            text-decoration:underline;
+        }
+    .nav h1:hover{
+        color: gray;
+    }
+
+
+
